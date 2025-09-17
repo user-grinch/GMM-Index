@@ -1,0 +1,11 @@
+{
+  "name": "Project Props Community",
+  "author": "ProjectProps Team",
+  "repo": "https://github.com/user-grinch/Project-Props",
+  "description": "A props modification for Grand Theft Auto Sanandreas",
+  "license": "MIT",
+  "tags": ["props", "map"],
+  "version": "3.0.0",
+  "dependencies": ["silent-asi-loader", "mod-loader"],
+  "lastUpdated": "2025-09-13"
+}

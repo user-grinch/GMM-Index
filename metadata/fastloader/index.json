@@ -1,0 +1,11 @@
+{
+  "name": "Fastloader",
+  "author": "Damix & Grinch_",
+  "repo": "https://github.com/user-grinch/FastLoader",
+  "description": "Loads game files dynamically",
+  "license": "MIT",
+  "tags": ["loader", "file"],
+  "version": "1.0.0",
+  "dependencies": ["silent-asi-loader", "mod-loader"],
+  "lastUpdated": "2025-09-13"
+}
