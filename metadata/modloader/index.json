@@ -7,5 +7,5 @@
   "tags": ["loader", "core", "init"],
   "version": "1.0.0",
   "dependencies": ["silent-asi-loader", "silent-patch"],
-  "last_updated": "2025-09-13"
+  "lastUpdated": "2025-09-13"
 }

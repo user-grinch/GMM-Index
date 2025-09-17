@@ -7,5 +7,5 @@
   "tags": ["ped", "weapon", "vehicle"],
   "version": "2.0.0",
   "dependencies": ["silent-asi-loader", "silent-patch"],
-  "last_updated": "2025-09-13"
+  "lastUpdated": "2025-09-13"
 }
