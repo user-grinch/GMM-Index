@@ -1,0 +1,11 @@
+{
+  "name": "ModelExtras",
+  "author": "Grinch_",
+  "repo": "https://github.com/user-grinch/ModelExtras",
+  "description": "ModelExtras is a plugin for enhancing GTA San Andreas with custom features for peds, weapons, and vehicle components.",
+  "license": "MIT",
+  "tags": ["ped", "weapon", "vehicle"],
+  "version": "2.0.0",
+  "dependencies": ["silent-asi-loader", "silent-patch"],
+  "last_updated": "2025-09-13"
+}
