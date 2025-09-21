@@ -1,11 +1,34 @@
 {
-  "name": "Project Props Community",
-  "author": "ProjectProps Team",
-  "repo": "https://github.com/user-grinch/Project-Props",
-  "description": "A props modification for Grand Theft Auto Sanandreas",
-  "license": "MIT",
-  "tags": ["props", "map"],
-  "version": "3.0.0",
-  "dependencies": ["silent-asi-loader", "mod-loader"],
-  "lastUpdated": "2025-09-13"
+  "manifest": "1.0.0",
+
+  "metadata": {
+    "name": "Project Props Community",
+    "packageName": "com.grinch.projectprops",
+    "author": "ProjectProps Team",
+    "version": "3.0.0",
+    "category": "ScriptsAndPlugins",
+    "description": "A props modification for Grand Theft Auto Sanandreas",
+    "lastUpdated": "2025-09-20",
+    "homePage": "https://github.com/user-grinch/Project-Props/wiki"
+  },
+
+  "distribution": [
+    {
+      "provider": "GitHub",
+      "src": "https://github.com/user-grinch/Project-Props",
+      "asset": "Project-Props.zip",
+      "installType": "ModLoader"
+    },
+    {
+      "provider": "ModDB",
+      "src": "https://www.moddb.com/mods/Project-Props",
+      "asset": "Project-Props.zip",
+      "installType": "ModLoader"
+    }
+  ],
+
+  "dependencies": [
+    "com.silent.asiloader",
+    "com.link2012.modloader"
+  ]
 }

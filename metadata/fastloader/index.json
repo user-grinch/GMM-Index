@@ -1,11 +1,34 @@
 {
-  "name": "Fastloader",
-  "author": "Damix & Grinch_",
-  "repo": "https://github.com/user-grinch/FastLoader",
-  "description": "Loads game files dynamically",
-  "license": "MIT",
-  "tags": ["loader", "file"],
-  "version": "1.0.0",
-  "dependencies": ["silent-asi-loader", "mod-loader"],
-  "lastUpdated": "2025-09-13"
+  "manifest": "1.0.0",
+
+  "metadata": {
+    "name": "Fastloader",
+    "packageName": "com.damix.fastloader",
+    "author": "Damix & Grinch_",
+    "version": "1.2.3",
+    "category": "ScriptsAndPlugins",
+    "description": "Loads game files dynamically",
+    "lastUpdated": "2025-09-20",
+    "homePage": "https://github.com/user-grinch/FastLoader/wiki"
+  },
+
+  "distribution": [
+    {
+      "provider": "GitHub",
+      "src": "https://github.com/user-grinch/FastLoader",
+      "asset": "Fastloader.zip",
+      "installType": "ModLoader"
+    },
+    {
+      "provider": "ModDB",
+      "src": "https://www.moddb.com/mods/fastloader",
+      "asset": "Fastloader.zip",
+      "installType": "ModLoader"
+    }
+  ],
+
+  "dependencies": [
+    "com.silent.asiloader",
+    "com.link2012.modloader"
+  ]
 }

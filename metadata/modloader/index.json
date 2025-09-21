@@ -1,11 +1,28 @@
 {
-  "name": "Modloader",
-  "author": "Link/2012",
-  "repo": "https://github.com/thelink2012/modloader",
-  "description": "Mod Loader is a plugin for Grand Theft Auto III, Vice City and San Andreas that adds an easy and user-friendly way to install and uninstall modifications into the game, as if the game had official modding support. No changes are ever made to the original game files, everything is injected on the fly, at runtime!",
-  "license": "MIT",
-  "tags": ["loader", "core", "init"],
-  "version": "1.0.0",
-  "dependencies": ["silent-asi-loader", "silent-patch"],
-  "lastUpdated": "2025-09-13"
+  "manifest": "1.0.0",
+
+  "metadata": {
+    "name": "Modloader",
+    "packageName": "com.link2012.modloader",
+    "author": "Link/2012",
+    "version": "1.0.0",
+    "category": "ScriptsAndPlugins",
+    "description": "Mod Loader is a plugin for Grand Theft Auto III, Vice City and San Andreas that adds an easy and user-friendly way to install and uninstall modifications into the game, as if the game had official modding support. No changes are ever made to the original game files, everything is injected on the fly, at runtime!",
+    "lastUpdated": "2025-09-13",
+    "homePage": "https://github.com/thelink2012/modloader"
+  },
+
+  "distribution": [
+    {
+      "provider": "GitHub",
+      "src": "https://github.com/thelink2012/modloader",
+      "asset": "Modloader.zip",
+      "installType": "ModLoader"
+    }
+  ],
+
+  "dependencies": [
+    "com.silent.asiloader",
+    "com.silent.patch"
+  ]
 }
